@@ -1,0 +1,48 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body{background: linear-gradient(to right, rgb(2, 255, 213), rgb(13, 194, 211),rgb(7, 158, 172))};
+h1{ text-transform: uppercase;}
+pre{
+    background: rgb(245, 245, 245);
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 1.2em;
+     padding: 20px;}
+h3{margin-top: 20px;}
+.conteiner{
+background: rgb(255, 255, 255);
+max-width: 25rem;
+margin: 10rem auto;
+padding: 15px;
+border-radius: 15px;
+box-shadow: 2px  3px 10px rgb(0, 0, 0);
+}
+.texto{
+    border-radius: 6px;
+}
+.bt-azul, .bt-verde, .bt-vermelho{
+    padding: 5px;
+    border-radius: 15px;
+}
+.paciente{ margin-bottom: 1.5rem; margin-top: 1rem;}
+.bt-verde{background: rgb(57, 246, 50); color: #fff;}
+.bt-azul{background: rgb(3, 179, 233); color: #fff;}
+.bt-vermelho{background: rgb(255, 42, 42); color: #fff;}
+.bt-verde:hover{
+background: rgb(42, 207, 36);
+box-shadow: 0.5px 0.5px 0.5px black;
+width: 70px;
+}
+.bt-vermelho:hover{
+background: rgb(216, 27, 27);
+box-shadow: 0.5px 0.5px 0.5px black;
+width: 70px;
+}
+.bt-azul:hover{
+background: rgb(4, 151, 195);
+box-shadow: 0.5px 0.5px 0.5px black;
+width: 70px;
+}
